@@ -1,2 +1,2 @@
 # Eagle_Twins
-안녕 병신들아
+https://data-make.tistory.com/228
