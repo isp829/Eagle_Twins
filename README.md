@@ -10,3 +10,11 @@ height = int(input("피라미드의 높이를 입력하세요: "))
 
 # 피라미드를 그립니다.
 draw_pyramid(height)
+
+output = ""
+for i in range(1, 10):
+    for j in range(0, i):
+        output += "*"
+    output += "\n"
+
+print(output)
