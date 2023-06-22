@@ -19,3 +19,23 @@ for i in range(1, 10):
     output += "\n"
 
 print(output)
+
+
+
+n=int(input('숫자입력'))
+
+for i in range(n):
+    if (i==0):
+        for j in range(2*n-3):
+            print("ㅇ",end='')
+        print()
+    else:
+        for k in range(n-1-i):
+            print("ㅇ",end='')
+        for j in range(2*i-1):
+            print("ㅁ",end='')
+        for k in range(n-1-i):
+            print("ㅇ",end='')
+        print()
+
+
