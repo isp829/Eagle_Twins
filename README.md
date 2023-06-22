@@ -1,4 +1,2 @@
 # Eagle_Twins
-https://data-make.tistory.com/228
-이 저장소 포크후 새로운 브랜치 만들고 pull요청하기
-12313131
+오늘할일 별로 피라미드 만들기 서로 코드 리뷰
