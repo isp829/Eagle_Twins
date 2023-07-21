@@ -1,0 +1,16 @@
+name: Issue Notification
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  discord_notification:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Discord notification
+      uses: Ilshidur/action-discord@2.1.0
+      with:
+        args: "@박인수 님 안녕하세요, 새로운 이슈가 등록되었습니다: ${{ github.event.issue.title }}. 자세한 내용은 다음 링크를 확인해주세요: ${{ github.event.issue.html_url }}"
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
