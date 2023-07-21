@@ -11,6 +11,6 @@ jobs:
     - name: Discord notification
       uses: Ilshidur/action-discord@0.3.2
       with:
-        args: "@박인수"
+        args: "<@386432275283443712>"
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
